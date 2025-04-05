@@ -10,7 +10,7 @@ const Blogs = () => {
 
     return (
         <div>
-            <div className="all-blogs grid grid-cols-2">
+            <div className="all-blogs grid grid-cols-2 gap-6">
                 {
                     blogs.map((blog => <Blog key={blog.id} blog={blog}></Blog>))
                 }

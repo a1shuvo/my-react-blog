@@ -8,7 +8,7 @@ function App() {
     <>
       <Navbar></Navbar>
       <div className="main-container flex text-center">
-        <div className="left-container w-[70%]">
+        <div className="left-container w-[70%] p-6">
           <Blogs></Blogs>
         </div>
         <div className="right-container w-[30%]">

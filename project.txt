@@ -26,3 +26,9 @@
 - From Blogs.jsx map through the blogs array and send as props to Blog.jsx.
 - Create a card component using DaisyUI inside Blog.jsx.
 - Display Single blog data in the card component.
+
+
+# 42-5 Add Bookmark button
+- Add Author, Author Image and hashtags in Blog.jsx component and use tailwind for styling.
+- Install react icon package.
+- Use Bookmark icon from react icon package inside Blog.jsx component.
