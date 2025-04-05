@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Blog from '../Blog/Blog';
 
 const Blogs = () => {
     const [blogs, setBlogs] = useState([]);
@@ -7,11 +8,13 @@ const Blogs = () => {
         fetch('/blogs.json').then(res => res.json()).then(data => setBlogs(data));
     }, []);
 
-    console.log(blogs);
-
     return (
         <div>
-            <h1 className='text-2xl'>Total Blogs: {blogs.length}</h1>
+            <div className="all-blogs grid grid-cols-2">
+                {
+                    blogs.map((blog => <Blog key={blog.id} blog={blog}></Blog>))
+                }
+            </div>
         </div>
     );
 };

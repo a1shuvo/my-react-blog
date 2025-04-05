@@ -19,3 +19,10 @@
 - Inside App.jsx file create container div that has left and right container class.
 - Set container flex using tailwind css and set height 70% on left-container and 30% on right container.
 - Diplay blogs count from Blogs.jsx
+
+
+# 42-4 Display Blog data and hashtags
+- Create Single Blog component. Inside components/Blog create Blog.jsx
+- From Blogs.jsx map through the blogs array and send as props to Blog.jsx.
+- Create a card component using DaisyUI inside Blog.jsx.
+- Display Single blog data in the card component.
