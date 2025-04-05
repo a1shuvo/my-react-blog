@@ -11,7 +11,7 @@ const Blogs = () => {
 
     return (
         <div>
-
+            <h1 className='text-2xl'>Total Blogs: {blogs.length}</h1>
         </div>
     );
 };

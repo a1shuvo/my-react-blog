@@ -13,3 +13,9 @@
 - Create Blogs.jsx in components/Blog folder
 - Create simple react component Blog inside Blog.jsx and fetch blogs.json data using useEffect and and setBlogs using useState hook.
 - Add the Blogs Component inside App.jsx
+
+
+# 42-3 Set Layout and make react responsive
+- Inside App.jsx file create container div that has left and right container class.
+- Set container flex using tailwind css and set height 70% on left-container and 30% on right container.
+- Diplay blogs count from Blogs.jsx

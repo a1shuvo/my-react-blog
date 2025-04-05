@@ -1,12 +1,7 @@
-# React + Vite
+# React Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **blog application** built with **React.js** as part of the **Complete Web Development Course** by **Programming Hero**.
 
-Currently, two official plugins are available:
+## 🚀 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The React Blog app allows users to read and explore various blog posts. This project is designed to showcase how React can be used to build dynamic, component-based UIs, handle state, and fetch data from APIs or static files. The app is fully responsive and follows modern best practices in React development.
