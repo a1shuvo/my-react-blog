@@ -1,0 +1,15 @@
+# 42-1 Scribbles Cafe Project Overview and Tailwind setup
+- Install react with vite
+- Install Tailwind CSS & configure
+- Install DaisyUI & Configure
+- Copy a Navbar JSX template from DaisyUI
+- Display the Navbar from src/components/Navbar/Navbar.jsx
+
+
+# 42-2 Create Fake Data for the blogs and load data
+- Create json fake data for blogs and paste it into public/blogs.json
+- blogs.json includes array of objects
+(id, cover, title, author_img, author, posted_date, reading_time, hastags[])
+- Create Blogs.jsx in components/Blog folder
+- Create simple react component Blog inside Blog.jsx and fetch blogs.json data using useEffect and and setBlogs using useState hook.
+- Add the Blogs Component inside App.jsx

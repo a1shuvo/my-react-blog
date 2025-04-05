@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "cover": "https://www.w3schools.com/w3images/rocks.jpg",
+        "title": "How to Learn JavaScript in 30 Days",
+        "author_img": "https://randomuser.me/api/portraits/men/1.jpg",
+        "author": "John Doe",
+        "posted_date": "2025-03-15",
+        "reading_time": "8 min",
+        "hashtags": [
+            "#JavaScript",
+            "#Coding",
+            "#WebDevelopment",
+            "#LearnToCode"
+        ]
+    },
+    {
+        "id": 2,
+        "cover": "https://www.w3schools.com/w3images/forest.jpg",
+        "title": "10 Tips for Mastering CSS Flexbox",
+        "author_img": "https://randomuser.me/api/portraits/women/2.jpg",
+        "author": "Jane Smith",
+        "posted_date": "2025-03-10",
+        "reading_time": "6 min",
+        "hashtags": [
+            "#CSS",
+            "#Flexbox",
+            "#WebDesign",
+            "#Frontend"
+        ]
+    },
+    {
+        "id": 3,
+        "cover": "https://www.w3schools.com/w3images/lights.jpg",
+        "title": "Understanding Asynchronous JavaScript",
+        "author_img": "https://randomuser.me/api/portraits/women/3.jpg",
+        "author": "Alice Johnson",
+        "posted_date": "2025-03-05",
+        "reading_time": "10 min",
+        "hashtags": [
+            "#JavaScript",
+            "#Async",
+            "#Programming",
+            "#WebDev"
+        ]
+    },
+    {
+        "id": 4,
+        "cover": "https://www.w3schools.com/w3images/mountains.jpg",
+        "title": "The Future of Web Development: 2025 and Beyond",
+        "author_img": "https://randomuser.me/api/portraits/men/4.jpg",
+        "author": "Michael Brown",
+        "posted_date": "2025-02-28",
+        "reading_time": "12 min",
+        "hashtags": [
+            "#WebDevelopment",
+            "#FutureTech",
+            "#CodingTrends",
+            "#Tech2025"
+        ]
+    },
+    {
+        "id": 5,
+        "cover": "https://www.w3schools.com/w3images/ocean.jpg",
+        "title": "A Beginner’s Guide to React",
+        "author_img": "https://randomuser.me/api/portraits/women/5.jpg",
+        "author": "Sarah Lee",
+        "posted_date": "2025-02-25",
+        "reading_time": "7 min",
+        "hashtags": [
+            "#React",
+            "#JavaScript",
+            "#Frontend",
+            "#WebDevelopment"
+        ]
+    }
+]
