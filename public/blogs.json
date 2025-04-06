@@ -6,7 +6,7 @@
         "author_img": "https://randomuser.me/api/portraits/men/1.jpg",
         "author": "John Doe",
         "posted_date": "2025-03-15",
-        "reading_time": "8 min",
+        "reading_time": 8,
         "hashtags": [
             "#JavaScript",
             "#Coding",
@@ -21,7 +21,7 @@
         "author_img": "https://randomuser.me/api/portraits/women/2.jpg",
         "author": "Jane Smith",
         "posted_date": "2025-03-10",
-        "reading_time": "6 min",
+        "reading_time": 6,
         "hashtags": [
             "#CSS",
             "#Flexbox",
@@ -36,7 +36,7 @@
         "author_img": "https://randomuser.me/api/portraits/women/3.jpg",
         "author": "Alice Johnson",
         "posted_date": "2025-03-05",
-        "reading_time": "10 min",
+        "reading_time": 10,
         "hashtags": [
             "#JavaScript",
             "#Async",
@@ -51,7 +51,7 @@
         "author_img": "https://randomuser.me/api/portraits/men/4.jpg",
         "author": "Michael Brown",
         "posted_date": "2025-02-28",
-        "reading_time": "12 min",
+        "reading_time": 12,
         "hashtags": [
             "#WebDevelopment",
             "#FutureTech",
@@ -66,7 +66,7 @@
         "author_img": "https://randomuser.me/api/portraits/women/5.jpg",
         "author": "Sarah Lee",
         "posted_date": "2025-02-25",
-        "reading_time": "7 min",
+        "reading_time": 7,
         "hashtags": [
             "#React",
             "#JavaScript",
