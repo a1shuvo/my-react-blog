@@ -26,10 +26,10 @@ const Blog = ({ blog, handleBookmark, handleReadingTime }) => {
                 </div>
                 <div className="card-body">
                     <h2 className="card-title">{blog.title}</h2>
-                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                    <p>{blog.description}</p>
                     <div className="hashtags flex flex-wrap">
-                        {blog.hashtags.map((tags) => (
-                            <p key={tags} className="bg-amber-100 px-2 py-1 mr-2 mb-2 rounded-md">{tags}</p>
+                        {blog.hashtags.map((tag) => (
+                            <p key={tag} className="bg-amber-100 px-2 py-1 mr-2 mb-2 rounded-md">{tag}</p>
                         ))}
                     </div>
                     <div className="card-actions justify-start">

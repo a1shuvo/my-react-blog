@@ -12,7 +12,8 @@
             "#Coding",
             "#WebDevelopment",
             "#LearnToCode"
-        ]
+        ],
+        "description": "A comprehensive guide to learning JavaScript in just 30 days. This post provides tips, resources, and a step-by-step plan to master JavaScript for web development."
     },
     {
         "id": 2,
@@ -27,7 +28,8 @@
             "#Flexbox",
             "#WebDesign",
             "#Frontend"
-        ]
+        ],
+        "description": "Master CSS Flexbox with these 10 essential tips. Learn how to create responsive layouts, control alignment, and improve your web design skills."
     },
     {
         "id": 3,
@@ -42,7 +44,8 @@
             "#Async",
             "#Programming",
             "#WebDev"
-        ]
+        ],
+        "description": "Dive into asynchronous JavaScript concepts like callbacks, promises, and async/await. Learn how to handle asynchronous code efficiently in modern JavaScript."
     },
     {
         "id": 4,
@@ -57,7 +60,8 @@
             "#FutureTech",
             "#CodingTrends",
             "#Tech2025"
-        ]
+        ],
+        "description": "Explore the future of web development in 2025. This post covers emerging technologies, trends, and how they will shape the web development landscape in the coming years."
     },
     {
         "id": 5,
@@ -72,6 +76,7 @@
             "#JavaScript",
             "#Frontend",
             "#WebDevelopment"
-        ]
+        ],
+        "description": "Start your journey with React. This beginner’s guide covers the basics of React, including components, state, props, and how to build your first React app."
     }
 ]
