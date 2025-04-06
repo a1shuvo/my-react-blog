@@ -32,3 +32,11 @@
 - Add Author, Author Image and hashtags in Blog.jsx component and use tailwind for styling.
 - Install react icon package.
 - Use Bookmark icon from react icon package inside Blog.jsx component.
+
+
+# 42-6 Handle bookmark state and display bookmark And lift up the state
+- Need set a handleBookmark arrow function at App.jsx which takes a blog parameter.
+- Send this handleBookmark as props to Blogs component and then again send to Blog component.
+- In Blog.jsx wrap Bookmark icon inside a button and then set onClick to handleBookmark call which takes blog as argument.
+- Later in App.jsx using useState hook we can setBookmarked blog title using spread operator inside the handleBookmark function.
+- Finally we can map the bookmarked titles array in sidepanel after clicking specific bookmark.

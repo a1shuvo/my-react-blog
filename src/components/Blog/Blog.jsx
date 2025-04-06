@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaBookmark } from "react-icons/fa";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleBookmark }) => {
     return (
         <div>
             <div className="card bg-base-100 w-100 shadow-sm">
@@ -20,7 +20,9 @@ const Blog = ({ blog }) => {
                         <p className="font-semibold text-lg">{blog.author}</p>
                         <p className="text-sm text-gray-500">{blog.posted_date}</p>
                     </div>
-                    <FaBookmark size={25} className="ml-auto cursor-pointer" />
+                    <button onClick={() => handleBookmark(blog)}>
+                        <FaBookmark size={25} className="ml-auto cursor-pointer mr-6" />
+                    </button>
                 </div>
                 <div className="card-body">
                     <h2 className="card-title">{blog.title}</h2>
