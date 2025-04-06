@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaBookmark } from "react-icons/fa";
+import { MdBookmarkAdd } from "react-icons/md";
 
 const Blog = ({ blog, handleBookmark, handleReadingTime }) => {
     return (
@@ -21,7 +21,7 @@ const Blog = ({ blog, handleBookmark, handleReadingTime }) => {
                         <p className="text-sm text-gray-500">{blog.posted_date}</p>
                     </div>
                     <button onClick={() => handleBookmark(blog)} className="ml-auto cursor-pointer mr-6">
-                        <FaBookmark size={25} />
+                        <MdBookmarkAdd size={30} />
                     </button>
                 </div>
                 <div className="card-body">
@@ -33,7 +33,7 @@ const Blog = ({ blog, handleBookmark, handleReadingTime }) => {
                         ))}
                     </div>
                     <div className="card-actions justify-start">
-                        <button onClick={()=>{handleReadingTime(blog.reading_time)}} className="btn btn-primary">Mark as Read</button>
+                        <button onClick={()=>{handleReadingTime(blog.reading_time, blog.id)}} className="btn btn-primary">Mark as Read</button>
                     </div>
                 </div>
             </div>

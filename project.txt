@@ -48,3 +48,7 @@
 - In Blog.jsx after receiving the props set onClick event on Mark as Read button, which will pass blog reading_time as argument.
 - In App.jsx using useState hook we will update the total reading time by incrementing each blog reading time which 'Mark as Read' button clicked and display it to sidebar.
 
+# 42-8 Remove bookmark after read
+- From 'Mark as Read' button element in Blog.jsx pass another parameter blog.id, this will help to determine which blog will be removed when button is clicked.
+- In App.jsx add a function removeBookmarked, where it will filter out or remove bookmarked blog and setBookmarked.
+- From handleReadingTime function call removeBookmarked function with id.

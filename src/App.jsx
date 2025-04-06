@@ -6,13 +6,25 @@ import Navbar from './components/Navbar/Navbar'
 function App() {
   const [bookmarked, setBookmarked] = useState([]);
   const [readingTime, setReadingTime] = useState(0);
-  const handleBookmark = (blog) => {
-    setBookmarked([...bookmarked, blog]);
-  }
 
-  const handleReadingTime = (time) => {
+  const handleBookmark = (blog) => {
+    const bookmarkIds = new Set(bookmarked.map(blog => blog.id));
+    if (!bookmarkIds.has(blog.id)) {
+      setBookmarked([...bookmarked, blog]);
+    } else {
+      alert('This blog already added in Bookmarks!')
+    }
+  };
+
+  const handleReadingTime = (time, id) => {
     const newTime = readingTime + time;
     setReadingTime(newTime);
+    removeBookmark(id);
+  }
+
+  const removeBookmark = (id) => {
+    const remainingBookmark = bookmarked.filter((blog) => blog.id !== id);
+    setBookmarked(remainingBookmark);
   }
 
   return (
